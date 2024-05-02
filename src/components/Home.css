@@ -1,0 +1,100 @@
+
+.main-page-css{
+    display: flex;
+}
+  .main-page {
+    width: 1440px;
+    height: 790px;
+    padding-top: 70px;
+  
+    background: linear-gradient(244.25deg, #FFEDDF 0%, #E3E2FC 100%);
+  }
+  
+  .text-img {
+    width: 5px;
+    height: 380.34px;
+     margin-left: 5px;
+    padding-left: 50px;
+  }
+  .text-content {
+    width: 279px;
+    height: 48px;
+    padding-top: 12px;
+    margin-left: 50px;
+    
+  }
+  
+  .rating {
+    width: 289.17px;
+    height: 23px;
+  margin-top: 3rem;
+    margin-left: 50px;
+    gap: 6px;
+  }
+  
+  
+  .student-img {
+    width: 434px;
+    height: 385.96px;
+ 
+margin-right:20px ;
+   padding-left: 851px;
+   margin-left: 20px; 
+   margin-top:0.5rem;
+  
+  }
+  
+  .ratingbar {
+    width: Hug (1,129px)px;
+height: Hug (120px)px;
+margin-top: 12rem;
+margin-left: 155.5px;
+gap: 43px;
+margin-right: 12px;
+opacity: 0px;
+
+  }
+  .categories-img{
+    width: Hug (1,129px)px;
+height: Hug (434px)px;
+top: 1068.3px;
+margin-left: 50px;
+gap: 40px;
+opacity: 0px;
+
+  }
+  
+  .style{
+    display: flex;
+  }
+  .institute{
+    width: 1124px;
+    height: 384px;
+    margin-left: 60px;
+    margin-top:30px;
+  }
+  .frame img{
+    width: 1129px;
+    height: 510px;
+    margin-left: 50px;
+    margin-top: 30px;
+   
+ 
+
+  }
+  .frame{
+    background-color: black;
+   margin-top: 50px;
+   
+  }
+  .footer{
+    width: 1140px;
+    height: 90.11px;
+    margin-left: 60px;
+    margin-top: 50px;
+  }.footerlast{
+    width: 1140px;
+    height: 360px;
+    margin-top: 40px;
+  }
+  

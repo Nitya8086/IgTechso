@@ -16,14 +16,14 @@ const Home = () => {
     <div className="main-page-css">
       <div className="main-page">
         <div className="style">
-        <div className="text-img">
-          <img src={textImg} alt="img" />
+          <div className="text-img">
+            <img src={textImg} alt="img" />
+          </div>
+          <div className="student-img">
+            <img src={studentImg} alt="student" />
+          </div>
         </div>
-        <div className="student-img">
-          <img src={studentImg} alt="student" />
-        </div>
-        </div>
-       
+
         <div className="text-content">
           <p>trusted by over 5 million+ students worldwide since 2003</p>
         </div>
@@ -31,35 +31,34 @@ const Home = () => {
         <div className="rating">
           <img src={rating} alt="rating" />
         </div>
-        
-       
+
         <div className="ratingbar">
           <img src={ratingbar} alt="ratngbar" />
         </div>
-<div className ="categories-img">
-        <img  src={categoriesImg} alt="categories"/>
+        <div className="categories-img">
+          <img src={categoriesImg} alt="categories" />
+        </div>
+        <div>
+          <img src={instituteImg} alt="inst" />
+        </div>
+        <div className="institute">
+          <img src={institute} alt="intst" />
+        </div>
+        <div className="frame">
+          <img src={frame} alt="back" />
+        </div>
+
+        <div className="smartgoal">
+          <img src={smartgoal} alt="goal" />
+        </div>
+
+        <div className="footer">
+          <img src={footer} alt="img-desc" />
+        </div>
+        <div className="footerlast">
+          <img src={footerlast} alt="footer" />
+        </div>
       </div>
-      <div>
-        <img src={instituteImg} alt ="inst"/>
-      </div>
-      <div className="institute">
-        <img src={institute} alt ="intst"/>
-      </div>
-      <div className="frame">
-        <img src={frame} alt ="back"/>
-      </div>
-      <div>
-        <img src={smartgoal} alt ="goal"/>
-      </div>
-      <div className="footer">
-        <img src={footer}/>
-      </div>
-      <div className="footerlast">
-        <img src ={footerlast} alt ="footer"/>
-      </div>
-      </div>
-      
-     
     </div>
   );
 };

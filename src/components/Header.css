@@ -1,50 +1,62 @@
 .header {
   display: flex;
   width: 100%;
-
+  border: 1px solid pink;
+}
+.logo {
+  display: flex;
+}
+.logo :nth-child(1) {
+  width: 104px;
+  height: 70px;
 }
 .header-css {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
- 
+  border: 1px solid pink;
+  width: 90%;
   margin: auto;
 }
 .link {
   display: flex;
   width: 301px;
-  height: fixed(10px);
-
+  height: 10px;
   justify-content: space-between;
   align-items: center;
+  margin-left: 3%;
+  gap: 1rem;
+}
+.link p {
   font-family: Montserrat;
-  font-weight: 600;
   font-size: 16px;
-  margin-left: 91px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
 }
 .catagories {
+  width: 140px;
+  height: 40px;
   display: flex;
-  width: 1367x;
-  height: 44px;
   border-radius: 12px;
-  background: #f5e1ff;
-  gap: 10px;
-  align-items: center;
+  background-color: #f5e1ff;
   justify-content: center;
-  margin-left: 12px;
-  font-size: smaller;
-  font-weight: bold;
-  color: rgb(168, 17, 168);
-  padding-left: 12px;
-  padding-right: 12px;
+  align-items: center;
+  gap: 4px;
+}
+.catagories p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #8708c2;
 }
 .search-container {
-  display: flex;
+  border: 1px solid black;
   width: 367px;
-  height: 43.91px;
-  margin: 12px;
-  gap: 12px;
+  display: flex;
+  justify-content: center;
 }
 .cart-icon {
   display: flex;
@@ -53,29 +65,29 @@
   margin-left: 5rem;
 }
 .search-container input {
-  width: 215px;
-  height: 44px;
-  gap: 0px;
+  color: #8708c2;
   border-radius: 12px;
-  
-  opacity: 0px;
-  margin-left: 70px;
-  padding-top: 12px;
+  display: flex;
+  border: none;
 }
 .catagories img {
   width: 20px;
   height: 20px;
 }
 .img-input {
-  
+  display: flex;
+  align-items: center;
+  border: 1px solid #8708c2;
   width: 301px;
-  height: fixed(10px);
-  
-
-  }
-.img-input input{
+  height: 10px;
+}
+.img-input input {
   height: 20px;
-  color: purple;
+  padding-bottom: 12px;
+  align-items: center;
+  padding-left: 14px;
+  color: rgb(218, 12, 218);
+  margin-top: 5px;
 }
 button {
   width: 102px;
@@ -88,7 +100,7 @@ button {
   padding-bottom: 12px;
   margin-left: 15px;
 }
-.img-input img{
+.img-input img {
   width: 15px;
   height: 15px;
   margin-top: 2.5px;
